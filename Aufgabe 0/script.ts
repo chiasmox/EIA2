@@ -1,12 +1,11 @@
 function begruessung() {
-var input : string; 
+
 var input = prompt ("Insert your name here!");
-     var text : string;
+    var node : HTMLElement = document.getElementById("content");
     
-    text = "Hey, what's up ";
-    text += input;
-    text += "?";
-    document.getElementById("content").innerHTML +=text;
+    node.innerHTML = "Hey, what's up ";
+    node.innerHTML += input;
+    node.innerHTML += "?";
      
     console.log("Hey, what's up " +input +  "?");
     
