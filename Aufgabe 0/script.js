@@ -5,7 +5,7 @@ function begruessung() {
     text = "Hey, what's up ";
     text += input;
     text += "?";
-    text += document.getElementById("content");
+    text += document.getElementById("content").innerHTML;
     console.log("Hey, what's up " + input + "?");
 }
 document.addEventListener('DOMContentLoaded', begruessung);

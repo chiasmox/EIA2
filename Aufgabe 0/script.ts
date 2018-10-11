@@ -6,7 +6,7 @@ var input = prompt ("Insert your name here!");
     text = "Hey, what's up ";
     text += input;
     text += "?";
-    text += document.getElementById("content");
+    text += document.getElementById("content").innerHTML;
      
     console.log("Hey, what's up " +input +  "?");
     
